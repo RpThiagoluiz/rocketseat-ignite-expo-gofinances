@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "strict": true,
-    "baseUrl": "./src",
+    "baseUrl": "./src/",
     "module": "commonjs",
     "noImplicitReturns": true,
     "noImplicitThis": true,
@@ -13,8 +13,9 @@
     "target": "ES6",
     "paths": {
       "~/*": ["src/*"]
+      // "~/*": ["./src/*"]
     }
   },
-  "extends": "expo/tsconfig.base",
-  "include": ["./src/**/*.ts", "./src/**/*.d.ts"]
+  "extends": "expo/tsconfig.base"
+  // "include": ["./src/**/*.ts", "./src/**/*.d.ts", "src/components/testHeader/index.tsx"]
 }
