@@ -13,7 +13,6 @@
     "target": "ES6",
     "paths": {
       "~/*": ["src/*"]
-      // "~/*": ["./src/*"]
     }
   },
   "extends": "expo/tsconfig.base"

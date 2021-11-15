@@ -1,11 +1,12 @@
 import React from 'react'
+import { TestHeader } from 'components/TestHeader'
 
-import { View, Text } from 'react-native'
+import { View } from 'react-native'
 
 export function Home() {
   return (
     <View>
-      <Text>Home</Text>
+      <TestHeader description="Ola" />
     </View>
   )
 }
