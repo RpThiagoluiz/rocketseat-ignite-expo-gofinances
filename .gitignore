@@ -49,6 +49,9 @@ buck-out/
 # CocoaPods
 /ios/Pods/
 
+# eslint
+.eslintcache
+
 # Expo
 .expo/
 web-build/
