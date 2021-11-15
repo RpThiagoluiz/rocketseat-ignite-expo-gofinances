@@ -1,0 +1,4 @@
+node_modules
+jsconfig.json
+metro.config.js
+__tests__
